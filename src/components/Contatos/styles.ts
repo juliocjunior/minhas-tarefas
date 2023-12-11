@@ -43,7 +43,7 @@ export const BarraAcoes = styled.div`
 export const BotaoSalvar = styled(Botao)`
   background-color: #00a10d;
   border-radius: 0;
-  margin-right: 34px;
+  margin-right: 35px;
   box-shadow: 10px 5px 5px black;
 `
 

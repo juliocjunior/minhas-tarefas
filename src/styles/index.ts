@@ -8,11 +8,15 @@ const EstiloGlobal = createGlobalStyle`
     font-family: Roboto, sans-serif;
     list-style: none;
   }
+
+  body {
+    background-color: #D2D2D2;
+  }
 `
 
 export const Container = styled.div`
-  display: grid;
-  grid-template-columns: 224px auto;
+  width: 100%;
+  margin: 0 auto;
 `
 
 export default EstiloGlobal
